@@ -140,17 +140,24 @@ nav ul li a:hover::after {
 
 .skill-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     grid-gap: 40px;
     margin-top: 100px;
     align-items: center;
 
 
 
+
+}
+
+.skill-list div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .skill-list img {
-    width: 100%;
+    width: 50%;
 }
 
 #portfolio {
@@ -255,7 +262,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left .sub {
-    color: #F4F9F9;
+    color: hsl(180, 29%, 97%);
 }
 
 .contact-left p i {
@@ -338,4 +345,9 @@ form button {
     color: #F4F9F9;
     margin-top: -40px;
     display: block;
+}
+
+.work {
+    text-align: center;
+    line-height: 20px;
 }
