@@ -105,7 +105,7 @@ nav ul li a:hover::after {
 
 #about {
     text-align: center;
-    height: 400px;
+    height: 500px;
     padding: 50px 0;
 }
 
@@ -140,20 +140,21 @@ nav ul li a:hover::after {
 
 .skill-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 40px;
-    margin-top: 100px;
+    margin-top: 20px;
     align-items: center;
 
+}
 
-
-
+.skill-list h2 {
+    margin-top: 100px;
 }
 
 .skill-list div {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .skill-list img {
@@ -180,6 +181,11 @@ nav ul li a:hover::after {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+}
+
+.work h3,
+p {
+    margin-top: 20px;
 }
 
 .work img {
