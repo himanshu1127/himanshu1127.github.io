@@ -25,6 +25,7 @@
     background-color: #4F98CA;
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 
 nav {
@@ -172,6 +173,7 @@ nav ul li a:hover::after {
 
 .skill-list div {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
@@ -383,6 +385,11 @@ form button {
 nav .hamburger {
     display: none;
     cursor: pointer;
+}
+
+.work_details {
+    background-color: #4F98CA;
+    color: #F4F9F9;
 }
 
 
