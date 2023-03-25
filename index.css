@@ -329,7 +329,7 @@ p {
 
 .btn {
     display: block;
-    margin: 50px auto;
+    margin: 10% auto;
     width: fit-content;
     padding: 14px 50px;
     border-radius: 6px;
@@ -404,7 +404,27 @@ nav .hamburger {
 @media (max-width: 768px) {
     .header-text h1 {
         font-size: 40px;
+    }
 
+    .btn {
+
+        padding: 10px 20px;
+
+    }
+
+
+    .header-text p {
+
+
+        font-size: 20px;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    nav .hamburger {
+        display: block;
 
     }
 
