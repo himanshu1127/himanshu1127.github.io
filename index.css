@@ -21,6 +21,12 @@
 
 }
 
+.container h2 {
+    text-align: center;
+    margin: 5% 0;
+    color: #F4F9F9;
+}
+
 #nav_container {
     background-color: #4F98CA;
     position: fixed;
@@ -167,6 +173,10 @@ nav ul li a:hover::after {
 
 }
 
+.skill-list p {
+    color: #F4F9F9;
+}
+
 .skill-list h2 {
     margin-top: 100px;
 }
@@ -183,7 +193,7 @@ nav ul li a:hover::after {
 }
 
 #portfolio {
-    padding: 100px 0;
+    padding-top: 100px;
     background-color: #F4F9F9;
 }
 
@@ -273,6 +283,7 @@ p {
 #contact {
     background-color: #4F98CA;
     margin-top: 100px;
+    margin-bottom: 0;
 }
 
 .contact-left {
@@ -390,6 +401,17 @@ nav .hamburger {
 .work_details {
     background-color: #4F98CA;
     color: #F4F9F9;
+    padding: 10px;
+}
+
+.live_links {
+    margin: 5%;
+    display: flex;
+}
+
+.live_links i {
+    font-size: 20px;
+    color: #4F98CA;
 }
 
 
