@@ -11,23 +11,34 @@
     width: 100%;
     height: 100vh;
     background-color: #4F98CA;
+
+    display: flex;
+    align-items: center;
 }
 
 .container {
     padding: 10px 10%;
+
+}
+
+#nav_container {
+    background-color: #4F98CA;
+    position: fixed;
+    width: 100%;
 }
 
 nav {
     display: flex;
+
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-
-
-
-
-
+    background-color: #4F98CA;
 }
+
+
+
+
 
 nav>h1 {
     color: #F4F9F9;
@@ -62,15 +73,23 @@ nav ul li a:hover::after {
 }
 
 .header-hero {
+
+
+    height: auto;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
 
 .header-text {
+    flex-basis: 60%;
+}
+
+.header-text div {
     margin-top: 20%;
     font-size: 30px;
-    flex-basis: 60%;
+
     color: #475053;
 }
 
@@ -91,21 +110,28 @@ nav ul li a:hover::after {
 
 .header-img {
     flex-basis: 40%;
+}
+
+.header-img div {
+    width: auto;
+    height: auto;
     text-align: center;
 }
 
 .header-img img {
-    width: 80%;
-    margin-left: 100px;
-    margin-top: 200px;
+    width: 70%;
+
     border-radius: 20px;
     border: 10px solid #F4F9F9;
 
 }
 
 #about {
+    height: auto;
     text-align: center;
     padding: 50px 0;
+
+
 }
 
 #about p {
@@ -361,11 +387,9 @@ nav .hamburger {
 
 
 
-/* Amol's CSS Media Queries */
+/* CSS Media Queries */
 @media screen and (min-width: 768px) {
-    #about {
-        height: 500px;
-    }
+
 
     #about p {
         font-size: 30px;
@@ -378,6 +402,12 @@ nav .hamburger {
 }
 
 @media (max-width: 768px) {
+    .header-text h1 {
+        font-size: 40px;
+
+
+    }
+
     .skill-list {
         grid-template-columns: repeat(2, 1fr);
     }
