@@ -435,6 +435,11 @@ nav .hamburger {
         font-size: 40px;
     }
 
+    .header-hero {
+        flex-direction: column-reverse;
+
+    }
+
     .btn {
 
         padding: 10px 20px;
@@ -478,10 +483,7 @@ nav .hamburger {
 
 /* for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
-    .header-hero {
-        flex-direction: column-reverse;
 
-    }
 
 
 
