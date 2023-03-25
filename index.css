@@ -23,7 +23,7 @@
 
 .container h2 {
     text-align: center;
-    margin: 5% 0;
+    margin: 10% 0;
     color: #F4F9F9;
 }
 
@@ -478,6 +478,12 @@ nav .hamburger {
 
 /* for screens smaller than 768px */
 @media only screen and (max-width: 767px) {
+    .header-hero {
+        flex-direction: column-reverse;
+
+    }
+
+
 
     .row {
         flex-direction: column;
