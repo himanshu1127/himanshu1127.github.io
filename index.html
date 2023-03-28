@@ -17,17 +17,17 @@
         <nav>
             <h1>HIMANSHU</h1>
             <div class="nav_links">
-                <ul>
+                <ul id="navlink">
+                    <li><i class="fa-sharp fa-regular fa-circle-xmark" onclick="Close()"></i></li>
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About me</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#portfolio">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                     <li><a href="fw21_0634-himanshu-garg-resume.pdf" target="_blank">Resume</a></li>
-
                 </ul>
             </div>
-            <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+            <div class="hamburger"><i class="fa-solid fa-bars" onclick="openmenu()"></i></div>
         </nav>
     </div>
 
@@ -291,6 +291,17 @@
         window.open("https://drive.google.com/file/d/1P321lunTolaGLKwQ3d4I4VIucgnXRi4J/view?usp=share_link")
 
     }
+    const nav = document.getElementById("navlink");
+
+    function openmenu() {
+
+        nav.style.right = "0";
+    }
+    function Close() {
+
+        nav.style.right = "-200px";
+    }
+
 </script>
 
 </html>
